@@ -38,7 +38,8 @@ footer {
 }
 .hero-img {
   width: 100%;
-  max-width: 600px;      /* controla el tamaño en pantallas grandes */
+  max-width: 700px;
+      /* controla el tamaño en pantallas grandes */
   aspect-ratio: 1 / 1;  /* 🔑 MISMA MEDIDA vertical y horizontal */
   object-fit: contain;  /* NO corta la cara */
   display: block;
