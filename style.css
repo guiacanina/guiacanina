@@ -35,19 +35,30 @@ article h3 {
   margin-top: 20px;
 }
 
-section h2 {
-  color: #2c7be5;
-  margin-bottom: 20px;
-}
-
-/* IMÁGENES DE CONTENIDO */
+/* IMÁGENES DE CONTENIDO (MÁS PEQUEÑAS) */
 .content-img {
   width: 100%;
-  max-width: 800px;
+  max-width: 600px;     /* 🔑 aquí las hacemos más pequeñas */
   height: auto;
   display: block;
-  margin: 40px auto;
-  border-radius: 8px;
+  margin: 30px auto;    /* menos espacio, más compacto */
+  border-radius: 6px;
+}
+
+.faq {
+  background-color: white;
+  padding: 25px;
+  border-radius: 6px;
+  margin-bottom: 30px;
+}
+
+.faq h2 {
+  color: #2c7be5;
+  margin-top: 0;
+}
+
+.faq-item {
+  margin-bottom: 20px;
 }
 
 footer {
