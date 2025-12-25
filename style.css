@@ -40,6 +40,16 @@ section h2 {
   margin-bottom: 20px;
 }
 
+/* IMÁGENES DE CONTENIDO */
+.content-img {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  display: block;
+  margin: 40px auto;
+  border-radius: 8px;
+}
+
 footer {
   background-color: #222;
   color: #ccc;
